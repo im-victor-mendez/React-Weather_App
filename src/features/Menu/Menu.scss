@@ -1,0 +1,27 @@
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    * {
+        background-color: var(--gray);
+        color: var(--white);
+        height: max-content;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 10px 18px;
+    }
+
+    #local_ubication {
+        font-variation-settings:
+            'FILL' 1,
+            'wght' 100,
+            'GRAD' 200,
+            'opsz' 20;
+        border-radius: 100%;
+        border: 0px;
+        padding: 1px;
+    }
+}

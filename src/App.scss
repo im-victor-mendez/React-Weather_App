@@ -1,0 +1,13 @@
+:root {
+    --background-sidebar: #1E213A;
+    --white: #E7E7EB;
+    --gray: #6E707A;
+    --blue: #3C47E9;
+}
+
+#sidebar {
+    background-color: var(--background-sidebar);
+    width: 30%;
+    height: 100vh;
+    padding: 46px;
+}
