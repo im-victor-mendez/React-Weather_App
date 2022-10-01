@@ -1,0 +1,47 @@
+#search {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 46px;
+    width: 30%;
+    background-color: var(--background-sidebar);
+
+    #close {
+        position: relative;
+        left: 100%;
+        text-decoration: none;
+        color: var(--white);
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 10px;
+    }
+
+    div {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            background-color: var(--blue);
+            color: var(--white);
+            border: 0px;
+        }
+    }
+
+    input {
+        background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-16.png);
+        background-position: 15px center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+
+        width: 70%;
+        padding: 15px;
+        text-indent: 32px;
+        border-color: var(--gray);
+        color: var(--white);
+    }
+}
+
+#search.active {
+    display: block;
+}
