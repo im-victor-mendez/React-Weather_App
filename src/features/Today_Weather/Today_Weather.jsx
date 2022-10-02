@@ -1,4 +1,5 @@
 import React from 'react'
+import './Today_Weather.scss'
 import { useSelector } from 'react-redux'
 
 function Today_Weather() {
@@ -15,7 +16,14 @@ function Today_Weather() {
         + selector.weather.icon + '@2x.png'} alt="" />}
 
         <div id='today-temperature'>
-            
+            <div id='temperature'>
+                {selector.weather.temperature}
+            </div>
+            °{selector.weather.unit}
+        </div>
+
+        <div id='description'>
+            {selector.weather.description}
         </div>
 
         <div id='today'>

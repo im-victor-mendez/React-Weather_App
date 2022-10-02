@@ -1,4 +1,5 @@
 import React from 'react'
+import './Visibility.scss'
 import { useSelector } from 'react-redux'
 
 function Visibility() {
@@ -6,7 +7,7 @@ function Visibility() {
     const visibility = selector.visibility
 
   return (
-    <section id='visibility'>
+    <section id='visibility' className='section'>
         <h1>Visibility</h1>
         <h2>
             {visibility} miles

@@ -1,13 +1,27 @@
 :root {
     --background-sidebar: #1E213A;
+    --background: #100E1D;
     --white: #E7E7EB;
     --gray: #6E707A;
+    --light-gray: #A09FB1;
     --blue: #3C47E9;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    
+    * {
+    color: var(--white);
+    }
 }
 
 #sidebar {
     background-color: var(--background-sidebar);
     width: 30%;
     height: 100vh;
-    padding: 46px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }

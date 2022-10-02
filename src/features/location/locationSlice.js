@@ -5,7 +5,9 @@ const initialState = {
     country: undefined,
     weather: {
         icon: undefined,
-        temperature: undefined
+        temperature: undefined,
+        unit: 'C',
+        description: undefined
     },
     wind: {
         velocity: undefined,
@@ -27,6 +29,8 @@ export const locationSlice = createSlice({
 
             state.weather.icon = info.weather.icon
             state.weather.temperature = info.weather.temperature
+            //state.weather.unit = info.weather.unit
+            state.weather.description = info.weather.main
             
             state.wind.velocity = info.wind.velocity
             state.wind.direction = info.wind.direction

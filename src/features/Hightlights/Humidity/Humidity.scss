@@ -1,0 +1,26 @@
+#humidity {
+    #bar {
+        display: block;
+        width: 80%;
+
+        * {
+            margin: 0%;
+        }
+
+        #percentages {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            p {
+                width: max-content;
+                text-align: start;
+            }
+        }
+
+        p {
+            width: 100%;
+            text-align: end;
+        }
+    }
+}

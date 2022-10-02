@@ -1,0 +1,49 @@
+#today-weather {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 80%;
+    width: 100%;
+
+    * {
+        color: var(--light-gray);
+    }
+
+    img {
+        width: 200px;
+    }
+
+    #today-temperature {
+        display: flex;
+        align-items: baseline;
+        font-size: 30px;
+
+        #temperature {
+            font-size: 50px;
+            color: var(--white);
+        }
+    }
+
+    #description {
+        font-size: 30px;
+    }
+
+    #ubication {
+        display: flex;
+        align-items: center;
+
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 100,
+            'GRAD' 200,
+            'opsz' 20;
+        }
+    }
+}

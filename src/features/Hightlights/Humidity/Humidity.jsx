@@ -1,4 +1,5 @@
 import React from 'react'
+import './Humidity.scss'
 import { useSelector } from 'react-redux'
 
 function Humidity() {
@@ -6,15 +7,18 @@ function Humidity() {
     const humidity = selector.humidity
 
     return (
-        <section id='humidity'>
+        <section id='humidity' className='section'>
             <h1>Humidity</h1>
             <h2>
                 {humidity}%
             </h2>
             <div id='bar'>
-                <p>0</p>
-                <p>50</p>
-                <p>100</p>
+                <div id='percentages'>
+                    <p>0</p>
+                    <p>50</p>
+                    <p>100</p>
+                </div>
+                
                 <div
                 style={
                     {

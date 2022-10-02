@@ -6,7 +6,7 @@ function Air_Pressure() {
     const air = selector.air
 
   return (
-    <section id='air-pressure'>
+    <section id='air-pressure' className='section'>
         <h1>Air Pressure</h1>
         <h2>
             {air} mb

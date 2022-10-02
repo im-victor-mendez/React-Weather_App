@@ -2,14 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 46px;
 
     * {
         background-color: var(--gray);
         color: var(--white);
         height: max-content;
+        border: 0px;
     }
 
-    a {
+    button {
         text-decoration: none;
         padding: 10px 18px;
     }
@@ -21,7 +23,6 @@
             'GRAD' 200,
             'opsz' 20;
         border-radius: 100%;
-        border: 0px;
-        padding: 1px;
+        padding: 9px;
     }
 }
