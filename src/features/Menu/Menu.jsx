@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { currentlocation } from '../location/locationSlice'
+import { currentlocation } from '../locationSlice'
 import './Menu.scss'
 
 export function display(params) {
