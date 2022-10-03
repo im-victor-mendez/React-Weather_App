@@ -10,7 +10,9 @@ function Wind() {
   return (
     <section id='wind'className='section'>
         <h1>Wind status</h1>
-        <h2>{wind.velocity} mph</h2>
+        <h2>
+          <h2 className='data'>{wind.velocity}</h2>
+           mph</h2>
         <div id='direction'>
             <i
             className='material-symbols-outlined'

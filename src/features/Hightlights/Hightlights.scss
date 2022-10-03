@@ -34,11 +34,32 @@
 
         * {
             width: max-content;
+            margin: 5px;
         }
 
-        h1 {
+        .data {
+            /*
             font-family: Raleway;
-            font-size: 16px;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: left;
+            */
+
+            /*
+            font-family: Raleway;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 75px;
+            letter-spacing: 0em;
+            text-align: left;
+            */
+            
+            font-family: Raleway;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 42px;
         }
     }
 }
